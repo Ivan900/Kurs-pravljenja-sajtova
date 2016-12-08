@@ -1,0 +1,45 @@
+.zaglavlje{
+	background-color: gray;
+	border-radius: 1em;
+	margin: auto;
+	width: 80%;
+}
+.tekst{
+	text-align: justify;
+	width: 80%;
+	margin: auto;
+	font-family: "Times new roman", Arial, Helvetica, serif;
+	font-size: 1.2em;
+	font-style: italic;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border:5px solid #021a40;
+
+}
+#ime_pisca{
+	 font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	 font-size: 1em;
+	 text-align: center;
+}
+#naslov{
+	font-family: "Times new roman", Arial, Helvetica, serif;
+	font-size: 2em;
+	text-align: center;
+
+}
+.podnozje{
+	text-align: center;
+	font-family: Arial, Helvetica, serif;
+	font-size: 0.7em;
+	font-style: bold;
+}
+a{
+	color: red;
+	text-decoration: none;
+}
+
+
+

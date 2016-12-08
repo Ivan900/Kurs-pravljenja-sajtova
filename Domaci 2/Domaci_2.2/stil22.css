@@ -1,0 +1,26 @@
+.pesma{
+	background-color: hotpink;
+	border-radius: 2em;
+	border-width: 2em;
+	height: 300px;
+}
+img{
+	margin-right: 0px;
+	height: 200px;
+	width: 280px;
+	border:5px solid #400000;
+	display: block;
+}
+table{
+	width: 100%;
+}
+p{
+	text-align: center;
+	font-family: Arial, "Times New Roman", Serif;
+	font-size: 1.3em;
+}
+h1{
+	text-align: center;
+	font-family: Arial, "Times New Roman", Serif;
+	font-size: 2.5em;
+}
