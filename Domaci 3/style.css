@@ -1,0 +1,192 @@
+*{
+      margin: 0;
+      padding: 0;
+    }
+div.medium {
+	display: inline-block;
+	width: 12em;
+	height: 10em;
+	border: 0.1em solid black;
+	position: absolute;
+	left:calc(50% - 6em);
+	top: calc(100% - 10em);	
+}
+div.medium-out {
+	display: inline-block;
+	width: 22%;
+	height: 15em;
+	position: relative;
+	left:5%;
+	top: 35em;
+}
+div.circle {
+	display: block;
+	width: 4em;
+	height: 4em;
+	border: 0.1em solid black;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	top: -2em;
+	border-radius: 2em;
+	background-color: black;
+}
+nav {
+	height: 12em;
+	width:100%;
+	background-color: blue;
+	padding: 1em;
+	position: fixed;
+	z-index: 5;
+
+}
+nav ul li {
+	display:inline-block;
+	width: 6em;
+
+}
+nav ul {
+	display:inline-block;
+	float: right;
+	position: absolute;
+	left: 70%;
+	top: 4%;
+}
+div.nav_slika {
+	height:11em;
+	width: 11em;
+	border-radius: 7em;
+	border: 1em solid blue;
+	display: inline-block;
+	position: absolute;
+	left: calc(50% - 7em);
+	top: 9em;
+	background-color: white;
+}
+div.nav_mala_slika2 {
+	height:6em;
+	width: 6em;
+	border-radius: 3em;
+	display: inline-block;
+	position: absolute;
+	left: calc(50% - 3.5em);
+	top: 2.6em;
+	background-color: white;
+}
+div.nav_mala_slika1 {
+	height:6em;
+	width: 6em;
+	border-radius: 3em;
+	display: inline-block;
+	position: absolute;
+	left: calc(50% - 11em);
+	top: 6em;
+	background-color: white;
+} 
+div.nav_mala_slika3 {
+	height:6em;
+	width: 6em;
+	border-radius: 3em;
+	display: inline-block;
+	position: absolute;
+	left: calc(50% + 4em);
+	top: 6em;
+	background-color: white;
+}
+div.orginal {
+	display: inline-block;
+	position: absolute;
+	height: 1.2em;
+	width: 1.2em;
+	border-radius: 1em;
+	border: 0.2em solid black;
+	left: 20em;
+	top: 3em;
+
+} 
+div.logo {
+	display: inline-block;
+	position: absolute;
+	left: 0.5em;
+	font-size: 8em;
+	font-family: "Century Gothic",Tahoma, Sans-Serif;
+	font-style: italic;
+	font-size: 8em;
+	font-weight: bold;
+}
+h2.org_oznaka {
+	position: absolute;
+	left: 25%;
+	font-family: "Century Gothic",Tahoma, Sans-Serif;
+	font-size: 1em;
+	font-style: italic;
+	top: -5%;
+}
+h2.skrc_mala {
+	position: absolute;
+	font-family: Impact, "Times New Roman", Sans-Serif;
+	font-size: 4em;
+	font-style: italic;
+	left: 0.35em;
+	top: 0.15em;
+	opacity: 1;
+}
+h2.skrc_velika {
+	position: absolute;
+	font-family: Impact, "Times New Roman", Sans-Serif;
+	font-size: 9em;
+	font-style: italic;
+	left: 0.35em;
+	top: 0.15em;
+	font-weight: bold;
+	top: 3%;
+	left: 18%;
+	opacity: 1;
+}
+nav ul li a {
+	display: inline-block;
+	font-family: Impact, "Gill Sans", Sans;
+	font-size: 1.5em;
+	position: absolute;
+	color: black;
+	text-decoration: none;
+}
+div.created {
+	text-align:center;
+	display: inline-block;
+	position: absolute;
+	font-family: Impact, "Gill Sans", Sans;
+	font-size: 1.1em;
+	left: 77.5%;
+	top: 60%;
+}
+div.potpis {
+	height: 2em;
+	position: absolute;
+	font-family: Papyrus, Script, Fantasy;
+	font-size: 1.7em;
+	top: 77%;
+	left: 74.5%;
+	width: 10em;
+}
+div.obavestenje {
+	width: 16em;
+	font-family: Impact, Tahoma, Sans-Serif;
+	font-size: 2em;
+	position: relative;
+	display: block;
+	top: 15em;
+	left: calc(50% - 7em);
+	color: red;
+	z-index: 1;
+}
+
+div.dole {
+	height: 5em;
+	position:relative;
+	top:35em;
+}
+a:hover  {
+	color:red;
+}
+
