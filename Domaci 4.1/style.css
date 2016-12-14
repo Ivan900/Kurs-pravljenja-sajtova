@@ -1,0 +1,58 @@
+body {
+      margin: 0;
+      padding: 0;
+}
+header {
+	height: 3em;
+	background-color: gray;
+	padding: 1em;
+	padding-right: 3em;
+}
+nav {
+	text-align: center;
+}
+
+nav ul li {
+	display: inline-block;
+	width: 6em;
+}
+nav ul li a {
+	text-decoration: none;
+	color: red;
+}
+img {
+	float: right;
+	width: 60%;
+}
+article {
+	margin-left: 27%;
+	margin-right: 27%;
+	margin-bottom: 10%;
+}
+hr {
+	clear: right;
+}
+h3 {
+	clear: right;
+	font-size: 1em;
+}
+p {
+	text-align: justify;
+}
+table {
+	text-align: center;
+	width: 100%;
+}
+h4 {
+	display: inline-block;
+	font-weight: normal;
+}
+table tr:nth-child(odd) {
+	background-color: gray;
+}
+table tr:nth-child(1) {
+	background-color: white;
+}
+a:hover {
+    color: hotpink;
+}
