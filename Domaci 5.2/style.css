@@ -1,14 +1,47 @@
-.div2 {
-	display: inline-block;
-	margin-left: calc((100% - 60em)/4);
-	margin-top: 10em;
-	width: 15em;
-	height: 15em;
-	border: 2px solid black;
-}
-.div1 {
-	width: 90%;
-	margin-left: auto;
+.velika {
+	display: block;
 	margin-right: auto;
+	margin-left: auto;
+	box-sizing: inherit;
+	max-width: 40em;
+	width: 100%;
+	max-width: 40em;
+	z-index: 1;
+}
+article {
+	width: 70%;
+	max-width: 45em;
+	margin: 2em auto;
+	max-width: 40em;
+}
+.post {
+	width: 80%;
+	position: relative;
+	margin: 1em auto;
+	background-color: white;
+	z-index: 2;
+	top: -3em;
+	padding: 2em;
+	border: 1px gray solid;
+}
+h2 {
+	margin-top: 0em !important;
+	margin-bottom: 0em !important;
+}
+p {
+	font-size: 0.8em;
+	margin-top: 0em;
+}
+.avatar {
+	position: relative;
+	float: right;
+	width: 2em;
+	border-radius: 1em;
+	top: -0.3em;
 	border: 1px black solid;
+}
+a.komentar {
+	text-decoration: none;
+	color: orange;
+	font-size: 0.8em;
 }
