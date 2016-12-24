@@ -1,0 +1,140 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+}
+body {
+	color: color: #343434; 
+	font-family: 'Roboto', sans-serif;
+}
+ul {
+	padding-left: 0;
+}
+header {
+	height: 60px;
+	margin-bottom: 20px;
+	background-color: #ffffff;
+	z-index: 100;
+}
+nav {
+	margin: 0 55px;
+	height: 60px;
+}
+header nav ul li a {
+	font-family: 'Roboto', sans-serif;
+	font-size: 13px;
+	line-height: 20px;
+	font-weight: 500;
+	padding: 20px 15px;
+	margin: 0 5px;
+} 
+header nav ul {
+	display: inline-block;
+	float: right;
+	list-style: none;
+	vertical-align: bottom;
+}
+a {
+	text-decoration: none;
+}
+header nav ul li {
+	display: inline-block;
+    margin-top: 20px;
+}
+a {
+	color: #343434;
+}
+.logo {
+	display: inline-block;
+	color: #343434;
+	float: left;
+	padding: 10px 15px;
+	line-height: 40px;
+	font-size: 30px;
+	font-weight: 900;
+	font-family: "Montserrat", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.logo img {
+    float: left;
+    height: 40PX;
+    margin-right: 5px;
+}
+.slika_fixed {
+	background: url('http://www.pharaohlab.com/sphinx/demo/assets/img/bg/intro2.png');
+	background-position: center -170px;
+	opacity: 0.35;
+	position: fixed;
+	width: 100%;
+	min-height: 547px;
+	z-index: 1;
+}
+.telo {
+	position: relative;
+	z-index: 50;
+	width: 100%;
+}
+.naslov_1 {
+	position: relative;
+	padding: 200px 0;
+	z-index: 50;
+}
+h1,
+p {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0 20px;
+}
+p {
+	max-width: 790px;
+	margin-top: 30px;
+	margin-bottom: 40px;
+}
+h1 {
+	max-width: 700px;
+	margin-bottom: 20px;
+	font-size: 30px;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 749px) {
+	.vece_750 {
+		display: none;
+	}
+	.hed_meni {
+		margin-top: 13px;
+		margin-right: 15px;
+		border: 1px solid #1299d5;
+		padding: 10px 10px;
+		border-radius: 4px;
+		font-size: 14px;
+		color:#1299d5;
+	}
+	nav {
+		margin: 0 0px;
+	}
+
+}
+
+@media screen and (min-width: 750px) {
+	.manje_750 {
+		display: none;
+	}
+}
+@media screen and (max-width: 950px) {
+	header nav ul li a {
+		padding: 20px 10px;
+	}
+}
+@media screen and (min-width: 750px) and (max-width: 950px) {
+	nav {
+		margin: 0 13px;
+		width: 720px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+}
