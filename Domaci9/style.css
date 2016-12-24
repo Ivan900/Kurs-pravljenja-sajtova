@@ -14,6 +14,8 @@ header {
 	margin-bottom: 20px;
 	background-color: #ffffff;
 	z-index: 100;
+	position: fixed;
+	width: 100%;
 }
 nav {
 	margin: 0 55px;
@@ -60,7 +62,7 @@ a {
 }
 .slika_fixed {
 	background: url('http://www.pharaohlab.com/sphinx/demo/assets/img/bg/intro2.png');
-	background-position: center -170px;
+	background-position: center -110px;
 	opacity: 0.35;
 	position: fixed;
 	width: 100%;
@@ -78,7 +80,7 @@ a {
 	z-index: 50;
 }
 h1,
-p {
+.pasus_veci {
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
@@ -94,6 +96,60 @@ h1 {
 	margin-bottom: 20px;
 	font-size: 30px;
 }
+button.create {
+	width: 176px;
+	height: 42px;
+	border: 0;
+	border-radius: 4px;
+	padding: 10px 35px;
+	background-color: rgb(24, 138, 226);
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 20px;
+	color: white;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+.dvojka {
+	padding-top: 70px;
+	padding-bottom: 30px;
+	padding-left: 5%;
+	padding-right: 20px;
+	background-color: #2a2a2a !important;
+	color: white;
+}
+.dvojka_prvi {
+	display: inline-block;
+	padding-right: 15px;
+	padding-left: 15px;
+	width: 33%;
+}
+.dvojka_drugi {
+	margin-bottom: 40px;
+}
+h2.manji_inline_naslov {
+	display: inline-block;
+	font-size: 18px;
+	margin-bottom: 10px;
+	line-height: 25px;
+}
+p.manji_pasus {
+	margin-top: 0;
+	margin-bottom: 10px;
+	font-size: 14px;
+	margin-left: 65px;
+}
+.ikonica  {
+	position: relative;
+	top: 4px;
+	width: 60px;
+	height:50px;
+	display: inline-block;
+	text-align: center;
+}
+
 
 
 
