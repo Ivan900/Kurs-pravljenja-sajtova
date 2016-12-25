@@ -222,6 +222,26 @@ h4 {
 	font-size: 28px;
 	line-height: 35px;
 }
+.petica {
+	padding: 70px 0;
+	width: 100%;
+}
+.portfolio_lista {
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
+	text-align: center;
+}
+.portfolio_lista li {
+	font-weight: 600;
+	display: inline-block;
+	padding: 10px;
+	opacity: 0.65;
+	font-size: 15px;
+}
+.portfolio_lista li:hover {
+	opacity: 1;
+}
 
 
 
