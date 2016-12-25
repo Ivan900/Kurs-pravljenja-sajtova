@@ -193,10 +193,57 @@ h5 {
 	line-height: 25px;
 	text-align: center;
 }
+.cetvorka {
+	padding: 50px;
+	background: linear-gradient(to left, #1A2980 , #26D0CE);
+	color: white;
+}
+.cetvorka_1 {
+	display: inline-block;
+}
+.cetvorka_dugme {
+	display: inline-block;
+	vertical-align: top;
+	float: right;
+}
+.contact_us {
+	padding: 10px 35px;
+	margin-top: 20px;
+	background-color: white;
+	color: #1299d5;
+	border-radius: 20px;
+	border: 0px;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 20px;
+}
+h4 {
+	margin-bottom: 15px;
+	font-size: 28px;
+	line-height: 35px;
+}
 
 
 
 
+@media screen and (max-width: 800px) {
+	.cetvorka_1 {
+		width: 100%;
+		text-align: center;
+	}
+	.cetvorka_dugme {
+		display: block;
+		float: none;
+	}
+	.contact_us {
+		display: block;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	.cetvorka {
+		padding: 20px;
+	}
+}
 
 
 @media screen and (max-width: 749px) {
@@ -253,5 +300,8 @@ h5 {
 	}
 	.dvojka {
 		padding-left: 0;
+	}
+	h4 {
+		font-size: 24px;
 	}
 }
