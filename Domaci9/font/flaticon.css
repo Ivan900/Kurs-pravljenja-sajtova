@@ -1,6 +1,6 @@
 	/*
   	Flaticon icon font: Flaticon
-  	Creation date: 24/12/2016 23:12
+  	Creation date: 25/12/2016 15:49
   	*/
 
 @font-face {
@@ -26,12 +26,19 @@
   font-family: Flaticon;
         font-size: 30px;
 font-style: normal;
-text-align: center;
+margin-left: 15px;
+
 }
 
-.flaticon-knight:before { content: "\f100"; }
-.flaticon-multimedia:before { content: "\f101"; }
-.flaticon-pencil-and-ruler-cross:before { content: "\f102"; }
-.flaticon-physics:before { content: "\f103"; }
-.flaticon-puzzle-piece-plugin:before { content: "\f104"; }
-.flaticon-trophy:before { content: "\f105"; }
+.flaticon-arrows:before { content: "\f100"; }
+.flaticon-puzzle-piece-plugin:before { content: "\f10b"; }
+.flaticon-clock:before { content: "\f102"; }
+.flaticon-computer:before { content: "\f103"; }
+.flaticon-construction:before { content: "\f104"; }
+.flaticon-cup:before { content: "\f105"; }
+.flaticon-knight:before { content: "\f106"; }
+.flaticon-line-chart:before { content: "\f107"; }
+.flaticon-multimedia:before { content: "\f108"; }
+.flaticon-pencil-and-ruler-cross:before { content: "\f109"; }
+.flaticon-people:before { content: "\f10a"; }
+.flaticon-atomic-orbitals:before { content: "\f101"; }

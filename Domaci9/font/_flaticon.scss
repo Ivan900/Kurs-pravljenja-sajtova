@@ -1,6 +1,6 @@
     /*
     Flaticon icon font: Flaticon
-    Creation date: 24/12/2016 23:12
+    Creation date: 25/12/2016 15:49
     */
 
     @font-face {
@@ -36,16 +36,28 @@
   font-smoothing: antialiased;
     }
 
-    .flaticon-knight:before { content: "\f100"; }
-.flaticon-multimedia:before { content: "\f101"; }
-.flaticon-pencil-and-ruler-cross:before { content: "\f102"; }
-.flaticon-physics:before { content: "\f103"; }
-.flaticon-puzzle-piece-plugin:before { content: "\f104"; }
-.flaticon-trophy:before { content: "\f105"; }
+    .flaticon-arrows:before { content: "\f100"; }
+.flaticon-atomic-orbitals:before { content: "\f101"; }
+.flaticon-clock:before { content: "\f102"; }
+.flaticon-computer:before { content: "\f103"; }
+.flaticon-construction:before { content: "\f104"; }
+.flaticon-cup:before { content: "\f105"; }
+.flaticon-knight:before { content: "\f106"; }
+.flaticon-line-chart:before { content: "\f107"; }
+.flaticon-multimedia:before { content: "\f108"; }
+.flaticon-pencil-and-ruler-cross:before { content: "\f109"; }
+.flaticon-people:before { content: "\f10a"; }
+.flaticon-puzzle-piece-plugin:before { content: "\f10b"; }
     
-    $font-Flaticon-knight: "\f100";
-    $font-Flaticon-multimedia: "\f101";
-    $font-Flaticon-pencil-and-ruler-cross: "\f102";
-    $font-Flaticon-physics: "\f103";
-    $font-Flaticon-puzzle-piece-plugin: "\f104";
-    $font-Flaticon-trophy: "\f105";
+    $font-Flaticon-arrows: "\f100";
+    $font-Flaticon-atomic-orbitals: "\f101";
+    $font-Flaticon-clock: "\f102";
+    $font-Flaticon-computer: "\f103";
+    $font-Flaticon-construction: "\f104";
+    $font-Flaticon-cup: "\f105";
+    $font-Flaticon-knight: "\f106";
+    $font-Flaticon-line-chart: "\f107";
+    $font-Flaticon-multimedia: "\f108";
+    $font-Flaticon-pencil-and-ruler-cross: "\f109";
+    $font-Flaticon-people: "\f10a";
+    $font-Flaticon-puzzle-piece-plugin: "\f10b";

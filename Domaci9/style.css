@@ -3,7 +3,7 @@
 	margin: 0;
 }
 body {
-	color: color: #343434; 
+	color: #343434; 
 	font-family: 'Roboto', sans-serif;
 }
 ul {
@@ -66,13 +66,14 @@ a {
 	opacity: 0.35;
 	position: fixed;
 	width: 100%;
-	min-height: 547px;
+	min-height: 700px;
 	z-index: 1;
 }
 .telo {
 	position: relative;
 	z-index: 50;
 	width: 100%;
+	background-color: white;
 }
 .naslov_1 {
 	position: relative;
@@ -91,7 +92,7 @@ p {
 	margin-top: 30px;
 	margin-bottom: 40px;
 }
-h1 {
+.naslov {
 	max-width: 700px;
 	margin-bottom: 20px;
 	font-size: 30px;
@@ -115,7 +116,7 @@ button.create {
 .dvojka {
 	padding-top: 70px;
 	padding-bottom: 30px;
-	padding-left: 5%;
+	padding-left: 20px;
 	padding-right: 20px;
 	background-color: #2a2a2a !important;
 	color: white;
@@ -124,33 +125,74 @@ button.create {
 	display: inline-block;
 	padding-right: 15px;
 	padding-left: 15px;
+	margin-bottom: 40px;
 	width: 33%;
 }
 .dvojka_drugi {
 	margin-bottom: 40px;
 }
+.dvojka_treci {
+	float: right;
+	display: inline block;
+	width: calc(100% - 65px);
+}
 h2.manji_inline_naslov {
-	display: inline-block;
+	display: block;
 	font-size: 18px;
 	margin-bottom: 10px;
-	line-height: 25px;
+	line-height: 30px;
 }
 p.manji_pasus {
 	margin-top: 0;
 	margin-bottom: 10px;
 	font-size: 14px;
-	margin-left: 65px;
 }
-.ikonica  {
-	position: relative;
-	top: 4px;
-	width: 60px;
-	height:50px;
+.ikona {
 	display: inline-block;
+	width: 65px;
+}
+.trojka {
+	padding-top: 70px;
+	padding-bottom: 30px;
+	padding-left: 15px;
+	padding-right: 15px;
+	width: 100%;
+}
+.trojka_naslov {
+	padding-bottom: 50px;
+}
+h6 {
+	font-size: 14px;
+	line-height: 25px;
 	text-align: center;
 }
-
-
+h3 {
+	margin-top: 10px;
+	font-size: 28px;
+	line-height: 35px;
+	text-align: center;
+}
+.trojka_deo {
+	display: inline-block;
+	padding-bottom: 40px;
+	padding-right: 15px;
+	padding-left: 15px;
+	width: 33%;
+}
+.trojka_logo {
+	margin-top: 5px;
+	margin-bottom: 15px;
+	text-align: center;
+}
+.trojka_deo .manji_pasus {
+	text-align: center;
+}
+h5 {
+	margin-bottom: 10px;
+	font-size: 18px;
+	line-height: 25px;
+	text-align: center;
+}
 
 
 
@@ -169,6 +211,9 @@ p.manji_pasus {
 		border-radius: 4px;
 		font-size: 14px;
 		color:#1299d5;
+	}
+	.naslov {
+		font-size: 23px;
 	}
 	nav {
 		margin: 0 0px;
@@ -192,5 +237,21 @@ p.manji_pasus {
 		width: 720px;
 		margin-right: auto;
 		margin-left: auto;
+	}
+}
+@media screen and (min-width: 750px) and (max-width: 1100px) {
+	.dvojka_prvi,
+	.trojka_deo {
+		width: 49%;
+	}
+
+}
+@media screen and (max-width: 749px) {
+	.dvojka_prvi,
+	.trojka_deo {
+		width: 100%;
+	}
+	.dvojka {
+		padding-left: 0;
 	}
 }
