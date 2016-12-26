@@ -557,6 +557,49 @@ h4 {
 	margin-left: auto;
 	margin-right: auto;
 }
+footer {
+	padding-top: 50px;
+	background-color: rgb(42, 42, 42);
+	color: white;
+}
+.futer_wrp {
+	padding-left: 50px;
+	padding-right: 50px;
+	min-height: 260px;
+}
+footer h4 {
+	margin-bottom: 20px;
+	font-weight: 800;
+	font-size: 28px;
+	line-height: 35px
+}
+footer h5 {
+	text-align: left;
+	font-size: 16px;
+	line-height: 35px;
+}
+footer .manji_pasus {
+	font-size: 14px;
+	line-height: 25px;
+}
+.sedmica {
+	vertical-align: top;
+}
+footer ul {
+	text-align: left;
+}
+footer ul li {
+	color: white;
+	display: block;
+	line-height: 25px;
+	font-size: 15px;
+}
+footer ul a {
+	opacity: 0.7;
+}
+footer ul a:hover {
+	opacity: 1;
+}
 
 
 
