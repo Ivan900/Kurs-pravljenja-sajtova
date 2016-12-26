@@ -478,6 +478,7 @@ h4 {
 	width: 49.5%;
 }
 .ime_wrp_in {
+	display: inline-block;
 	width: 100%;
 	color: rgb(52, 52, 52);
 	background-color: rgb(220, 220, 220);
@@ -486,14 +487,22 @@ h4 {
 }
 .ime_wrp_in input,
 .poruka {
+	width: calc(100% - 46px);
 	border: 0px;
 	padding: 6px 12px;
 	font-size: 14px;
 	background-color: rgb(220, 220, 220);
+	display: inline-block;
+	float: right;
 }
-.ime_wrp_in i {
-	margin: 0 12px;
+.ikona_kontakt_wrp {
+	display: inline-block;
+	width: 45px;
+	text-align: center;
+}
+.ikona_kontakt_wrp i {
 	font-size: 18px;
+	line-height: 29px;
 }
 .poruka_wrp {
 	padding: 0 15px;
@@ -504,7 +513,6 @@ h4 {
 }
 .poruka {
 	width: 100%;
-	border: 0px;
 }
 
 
