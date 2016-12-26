@@ -38,6 +38,11 @@ font-weight: 500;
 
 }
 
+[class^="veliki"]:before, [class*="veliki"]:before,
+[class^="veliki"]:after, [class*="veliki"]:after {   
+font-size: 48px;
+}
+
 .flaticon-arrows:before { content: "\f100"; }
 .flaticon-puzzle-piece-plugin:before { content: "\f10b"; }
 .flaticon-clock:before { content: "\f102"; }
@@ -49,3 +54,4 @@ font-weight: 500;
 .flaticon-multimedia:before { content: "\f108"; }
 .flaticon-pencil-and-ruler-cross:before { content: "\f109"; }
 .flaticon-atomic-orbitals:before { content: "\f101"; }
+.flaticon-people:before { content: "\f10a"; }
