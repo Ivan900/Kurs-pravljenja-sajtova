@@ -353,8 +353,9 @@ h4 {
 	width: 33%;
 }
 .ponuda {
-	box-shadow: 0px 10px 20px rgba(229, 229, 229, .8);
+	box-shadow: 0px 10px 15px rgb(210, 210, 210);
 	width: 100%;
+	border: 1px solid rgb(230, 230, 230);
 }
 .ponuda_lista {
 	display: block;
@@ -363,8 +364,49 @@ h4 {
 	display: block;
 }
 
-
-
+.ponuda p {
+	margin: 0;
+	padding-bottom: 20px;
+	text-align: center;
+	font-size: 14px;
+	line-height: 25px;
+	font-style: italic;
+	color: gray;
+}
+.ponuda h5 {
+	margin-bottom: 2px;
+	padding-top: 20px;
+}
+.ponuda p, 
+.cena,
+.ponuda_lista li
+	{
+	border-bottom: 1px solid rgb(230, 230, 230);
+	padding: 7px 20px;
+}
+.ponuda_lista li {
+	line-height: 25px;
+	font-size: 13px;
+	text-align: left;
+}
+.ponuda_lista li i {
+	margin-right: 7px;
+	color: #1299d5;
+}
+.cena {
+	text-align: center;
+}
+.cena {
+	padding: 20px 0;
+	font-size: 13px;
+	font-weight: 400;
+	font-style: italic;
+}
+.cena span {
+	font-size: 46px;
+	font-weight: 900;
+	font-style: normal;
+}
 
 @media screen and (max-width: 800px) {
 	.cetvorka_1 {
