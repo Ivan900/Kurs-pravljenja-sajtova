@@ -319,6 +319,27 @@ h4 {
 	background-color: #1299d5;
 	border-color: white; 
 }
+.sivi {
+	padding: 50px 40px;
+	width: 100%;
+	background-color: #eaeaea;
+}
+.sedmica {
+	box-sizing: border-box;
+	display: inline-block;
+	padding-top: 25px;
+	padding-bottom: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
+	width: 24%;
+}
+.flaticon_wrapper {
+	text-align: center;
+	width: 100%;
+}
+
+
+
 
 
 @media screen and (max-width: 800px) {
