@@ -542,9 +542,10 @@ h4 {
 	background: url('mapa.jpg');
 	background-position: center center;
 }
-.pading70 {
-	padding-top: 70px;
-	padding-bottom: 70px;
+.sivi_brend {
+	width: 100%;
+	background-color: #f2f2f2;
+	padding: 70px 40px;
 }
 .pet_kol {
 	box-sizing: border-box;
@@ -576,6 +577,10 @@ h4 {
 	}
 	.cetvorka {
 		padding: 20px;
+	}
+	.pet_kol {
+		width: 32%;
+		margin-bottom: 20px;
 	}
 }
 
@@ -645,6 +650,9 @@ h4 {
 	h4 {
 		font-size: 24px;
 	}
+	.sivi_brend {
+		padding: 30px 20px;
+	}
 }
 
 @media screen and (min-width: 600px) and (max-width: 950px) {
@@ -698,5 +706,12 @@ h4 {
 	.mapa_wrp {
 		padding-left: 15px;
 		padding-right: 15px;
+	}
+	.pet_kol {
+		width: 49%;
+	}
+	.sivi_brend {
+		padding-left: 0;
+		padding-right: 0;
 	}
 }
