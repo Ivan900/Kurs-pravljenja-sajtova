@@ -600,6 +600,45 @@ footer ul a {
 footer ul a:hover {
 	opacity: 1;
 }
+.horizontala {
+	width: 80%;
+	height: 3px;
+	background-color: #343434;
+	margin-bottom: 20px; 
+}
+.hor1 {
+	width: 20%;
+	height: 3px;
+	background-color: #1299d5;
+}
+.folow_fa ul a {
+	display: inline-block;
+	height: 35px;
+	width: 35px;
+	border-radius: 4px;
+	font-size: 14px;
+	line-height: 35px;
+	text-align: center;
+	margin: 3px;
+	opacity: 1;
+}
+.folow_fa ul a li span {
+	margin-top: 10px;
+	color: white;
+	
+}
+.folow_fa ul a:nth-child(4n) {
+	background-color: #1299d5;
+}
+.folow_fa ul a:nth-child(2) {
+	background-color: #3b5998;
+}
+.folow_fa ul a:nth-child(3) {
+	background-color: #dd4b39;
+}
+.folow_fa ul a:nth-child(1) {
+	background-color: #1299d5;
+}
 
 
 
