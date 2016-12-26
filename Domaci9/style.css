@@ -518,8 +518,9 @@ h4 {
 		margin-left: 1%;
 	}
 	.clan_tima,
-	.portfolio_slika {
-		width: 49%;
+	.portfolio_slika,
+	.ponuda_wrp {
+		width: 49.5%;
 	}
 }
 
@@ -532,7 +533,8 @@ h4 {
 	}
 	.sedmica,
 	.clan_tima,
-	.portfolio_slika {
+	.portfolio_slika,
+	.ponuda_wrp {
 		width: 100%;
 	}
 	h3 {
@@ -540,5 +542,8 @@ h4 {
 	}
 	.trojka_naslov {
 		padding-bottom: 25px;
+	}
+		.osmica {
+		padding: 60px 0;
 	}
 }
