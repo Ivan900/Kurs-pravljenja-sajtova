@@ -470,6 +470,7 @@ h4 {
 }
 .dve_kol {
 	display: inline-block;
+	vertical-align: top;
 }
 .ime_wrp {
 	display: inline-block;
@@ -508,7 +509,7 @@ h4 {
 }
 .poruka_wrp_in {
 	width: 100%;
-	height: 200px;
+	height: 214px;
 }
 .poruka {
 	width: 100%;
@@ -534,6 +535,12 @@ h4 {
 }
 .posalji:hover {
 	background-color: #2a2a2a;
+}
+.mapa {
+	width: 100%;
+	height: 316px;
+	background: url('mapa.jpg');
+	background-position: center center;
 }
 
 
@@ -591,6 +598,10 @@ h4 {
 	}
 	.sedmica {
 		width: 49%;
+	}
+	.dve_kol {
+		width: 100%;
+		margin-bottom: 40px;
 	}
 }
 
@@ -656,10 +667,23 @@ h4 {
 	h3 {
 		font-size: 20px;
 	}
+	.blog_wrp,
+	.dve_kol {
+		padding-left: 0;
+		padding-right: 0;
+	}
 	.trojka_naslov {
 		padding-bottom: 25px;
 	}
 		.osmica {
 		padding: 40px 0;
+	}
+	.ime_wrp {
+		display: block;
+		width: 100%;
+	}
+	.mapa_wrp {
+		padding-left: 15px;
+		padding-right: 15px;
 	}
 }
