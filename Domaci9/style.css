@@ -542,7 +542,20 @@ h4 {
 	background: url('mapa.jpg');
 	background-position: center center;
 }
-
+.pading70 {
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+.pet_kol {
+	box-sizing: border-box;
+	display: inline-block;
+	width: 19.5%;
+}
+.brend {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
 
 
 
