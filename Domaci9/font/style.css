@@ -1,0 +1,412 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+}
+img {
+	box-sizing: border-box;
+}
+button {
+	cursor: pointer;
+}
+body {
+	color: #343434; 
+	font-family: 'Roboto', sans-serif;
+}
+ul {
+	padding-left: 0;
+	list-style: none;
+	text-align: center;
+}
+li {
+	display: inline-block;
+}
+header {
+	height: 80px;
+	margin-bottom: 20px;
+	background-color: #ffffff;
+	z-index: 100;
+	position: fixed;
+	width: 100%;
+	box-shadow: 0px 5px 20px rgba(229, 229, 229, .3);
+}
+nav {
+	margin: 0 55px;
+	height: 60px;
+}
+header nav ul li a {
+	font-family: 'Roboto', sans-serif;
+	font-size: 13px;
+	line-height: 20px;
+	font-weight: 500;
+	padding: 20px 15px;
+	margin: 0 5px;
+} 
+header nav ul {
+	display: inline-block;
+	float: right;
+	list-style: none;
+	vertical-align: bottom;
+}
+a {
+	text-decoration: none;
+}
+header nav ul li {
+	display: inline-block;
+    margin-top: 20px;
+}
+header nav ul li a:hover {
+	color: #1299d5;
+}
+a {
+	color: #343434;
+}
+.logo {
+	display: inline-block;
+	color: #343434;
+	float: left;
+	padding: 10px 15px;
+	line-height: 40px;
+	font-size: 30px;
+	font-weight: 900;
+	font-family: "Montserrat", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.logo img {
+    float: left;
+    height: 40PX;
+    margin-right: 5px;
+}
+.slika_fixed {
+	background: url('http://www.pharaohlab.com/sphinx/demo/assets/img/bg/intro2.png');
+	background-position: center -110px;
+	opacity: 0.35;
+	position: fixed;
+	width: 100%;
+	min-height: 700px;
+	z-index: 1;
+}
+.telo {
+	position: relative;
+	z-index: 50;
+	width: 100%;
+	background-color: white;
+}
+.naslov_1 {
+	position: relative;
+	padding: 200px 0;
+	z-index: 50;
+}
+h1,
+.pasus_veci {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0 20px;
+}
+p {
+	max-width: 790px;
+	margin-top: 30px;
+	margin-bottom: 40px;
+}
+.naslov {
+	max-width: 700px;
+	margin-bottom: 20px;
+	font-size: 30px;
+}
+button.create {
+	width: 176px;
+	height: 42px;
+	border: 0;
+	border-radius: 4px;
+	padding: 10px 35px;
+	background-color: rgb(24, 138, 226);
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 20px;
+	color: white;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+button:hover {
+	background-color: #2a2a2a;
+	color: white;
+}
+.dvojka {
+	padding-top: 70px;
+	padding-bottom: 30px;
+	padding-left: 20px;
+	padding-right: 20px;
+	background-color: #2a2a2a !important;
+	color: white;
+}
+.dvojka_prvi {
+	display: inline-block;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-bottom: 40px;
+	width: 33%;
+}
+.dvojka_drugi {
+	margin-bottom: 40px;
+}
+.dvojka_treci {
+	float: right;
+	display: inline block;
+	width: calc(100% - 65px);
+}
+h2.manji_inline_naslov {
+	display: block;
+	font-size: 18px;
+	margin-bottom: 10px;
+	line-height: 30px;
+}
+p.manji_pasus {
+	margin-top: 0;
+	margin-bottom: 10px;
+	font-size: 14px;
+}
+.ikona {
+	display: inline-block;
+	width: 65px;
+}
+.trojka {
+	padding-top: 70px;
+	padding-bottom: 30px;
+	padding-left: 15px;
+	padding-right: 15px;
+	width: 100%;
+}
+.trojka_naslov {
+	padding-bottom: 50px;
+}
+h6 {
+	font-size: 14px;
+	line-height: 25px;
+	text-align: center;
+}
+h3 {
+	margin-top: 10px;
+	font-size: 28px;
+	line-height: 35px;
+	text-align: center;
+}
+.trojka_deo {
+	display: inline-block;
+	padding-bottom: 40px;
+	padding-right: 15px;
+	padding-left: 15px;
+	width: 33%;
+}
+.trojka_logo {
+	margin-top: 5px;
+	margin-bottom: 15px;
+	text-align: center;
+}
+.trojka_deo .manji_pasus {
+	text-align: center;
+}
+h5 {
+	margin-bottom: 10px;
+	font-size: 18px;
+	line-height: 25px;
+	text-align: center;
+}
+.cetvorka {
+	padding: 50px;
+	background: linear-gradient(to left, #1A2980 , #26D0CE);
+	color: white;
+}
+.cetvorka_1 {
+	display: inline-block;
+}
+.cetvorka_dugme {
+	display: inline-block;
+	vertical-align: top;
+	float: right;
+}
+.contact_us {
+	padding: 10px 35px;
+	margin-top: 20px;
+	background-color: white;
+	color: #1299d5;
+	border-radius: 20px;
+	border: 0px;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 20px;
+}
+h4 {
+	margin-bottom: 15px;
+	font-size: 28px;
+	line-height: 35px;
+}
+.petica {
+	padding: 70px 0;
+	width: 100%;
+}
+.portfolio_lista {
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
+	text-align: center;
+}
+.portfolio_lista li {
+	font-weight: 600;
+	display: inline-block;
+	padding: 10px;
+	opacity: 0.65;
+	font-size: 15px;
+}
+.portfolio_lista li:hover {
+	opacity: 1;
+}
+.portfolio_slike {
+	margin-left: 0.5%;
+}
+.portfolio_slika {
+	box-sizing: border-box;
+	border-top: 1px white solid;
+	width: 33%;
+}
+.tim {
+	padding: 0 40px;
+}
+.clan_tima {
+	display: inline-block;
+	padding: 30px;
+	padding-top: 45px;
+	width: 33%;
+}
+.clan_tima h6 {
+	font-size: 12px;
+	font-weight: 400;
+	opacity: 0.8;
+}
+.clan_tima h5 {
+	font-size: 15px;
+	padding-top: 15px;
+}
+.slika_clana {
+	display: block;
+	border-radius: 110px;
+	overflow: hidden;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 15px;
+}
+.tim_linkovi {
+	margin-top: 15px;
+}
+.tim_linkovi li {
+	height: 30px;
+	width: 30px;
+	border-radius: 4px;
+	margin: 6px;
+	border: 1px #b2b2b2 solid;
+}
+.tim_linkovi li a span {
+	font-size: 14px;
+	line-height: 30px;
+	text-align: center;
+}
+
+
+
+@media screen and (max-width: 800px) {
+	.cetvorka_1 {
+		width: 100%;
+		text-align: center;
+	}
+	.cetvorka_dugme {
+		display: block;
+		float: none;
+	}
+	.contact_us {
+		display: block;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	.cetvorka {
+		padding: 20px;
+	}
+}
+
+@media screen and (max-width: 749px) {
+	.vece_750 {
+		display: none;
+	}
+	.hed_meni {
+		margin-top: 13px;
+		margin-right: 15px;
+		border: 1px solid #1299d5;
+		padding: 10px 10px;
+		border-radius: 4px;
+		font-size: 14px;
+		color:#1299d5;
+	}
+	.naslov {
+		font-size: 23px;
+	}
+	nav {
+		margin: 0 0px;
+	}
+}
+
+@media screen and (min-width: 750px) {
+	.manje_750 {
+		display: none;
+	}
+}
+@media screen and (max-width: 950px) {
+	header nav ul li a {
+		padding: 20px 10px;
+	}
+}
+
+@media screen and (min-width: 750px) and (max-width: 950px) {
+	nav {
+		margin: 0 13px;
+		width: 720px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+}
+
+@media screen and (min-width: 750px) and (max-width: 1100px) {
+	.dvojka_prvi,
+	.trojka_deo {
+		width: 49%;
+	}
+}
+
+@media screen and (max-width: 749px) {
+	.dvojka_prvi,
+	.trojka_deo {
+		width: 100%;
+	}
+	.dvojka {
+		padding-left: 0;
+	}
+	h4 {
+		font-size: 24px;
+	}
+}
+
+@media screen and (min-width: 600px) and (max-width: 950px) {
+	.portfolio_slike {
+		margin-left: 1%;
+	}
+	.portfolio_slika {
+		width: 49%;
+	}
+}
+
+@media screen and (max-width: 599px) {
+	.portfolio_slike {
+		margin-left: 0;
+	}
+	.portfolio_slika {
+		width: 100%;
+	}
+}
