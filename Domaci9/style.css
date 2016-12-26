@@ -428,7 +428,23 @@ h4 {
 	background-color: rgb(24, 138, 226);
 	border-color: rgb(24, 138, 226);
 }
-
+.blog_wrp {
+	padding: 0 15px;
+	width: 100%;
+}
+.blog_clanak {
+	padding: 12px 25px;
+}
+.blog_futer {
+	padding: 5px 10px;
+	border-top: 1px solid rgb(230, 230, 230);
+}
+.blog {
+	border: 1px solid rgb(230, 230, 230);
+}
+.blog_slika {
+	width: 100%;
+}
 
 @media screen and (max-width: 800px) {
 	.cetvorka_1 {
@@ -522,6 +538,9 @@ h4 {
 	.ponuda_wrp {
 		width: 49.5%;
 	}
+	.ponuda_wrp {
+		margin-top: 20px;
+	}
 }
 
 @media screen and (max-width: 599px) {
@@ -536,6 +555,9 @@ h4 {
 	.portfolio_slika,
 	.ponuda_wrp {
 		width: 100%;
+	}
+	.ponuda_wrp {
+		margin-top: 20px;
 	}
 	h3 {
 		font-size: 20px;
