@@ -376,6 +376,7 @@ h4 {
 .ponuda h5 {
 	margin-bottom: 2px;
 	padding-top: 20px;
+	color: #1299d5;
 }
 .ponuda p, 
 .cena,
@@ -407,6 +408,27 @@ h4 {
 	font-weight: 900;
 	font-style: normal;
 }
+.ponuda_dugme_wrp {
+	padding: 20px 0;
+}
+.ponuda_dugme {
+	display: block;
+	padding: 10px 35px;
+	border-radius: 4px;
+	background-color: #333;
+	border: 1px solid #333;
+	font-size: 17px;
+	line-height: 25px;
+	color: white;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+.ponuda_dugme:hover {
+	background-color: rgb(24, 138, 226);
+	border-color: rgb(24, 138, 226);
+}
+
 
 @media screen and (max-width: 800px) {
 	.cetvorka_1 {
