@@ -126,7 +126,6 @@ button.create {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-
 }
 button:hover {
 	background-color: #2a2a2a;
@@ -513,7 +512,30 @@ h4 {
 }
 .poruka {
 	width: 100%;
+	height: 100%;
 }
+.posalji_wrp {
+	padding: 15px;
+	height: 100%;
+	width: 100%;
+}
+.posalji {
+	padding: 10px 35px;
+	height: 100%;
+	width: 100%;
+	background-color: rgb(24, 138, 226);
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 20px;
+	color: white;
+	border: 0px;
+	border-radius: 4px;
+	cursor: pointer;
+}
+.posalji:hover {
+	background-color: #2a2a2a;
+}
+
 
 
 
