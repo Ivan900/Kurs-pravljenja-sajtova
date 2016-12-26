@@ -14,6 +14,11 @@ body {
 }
 ul {
 	padding-left: 0;
+	list-style: none;
+	text-align: center;
+}
+li {
+	display: inline-block;
 }
 header {
 	height: 80px;
@@ -267,7 +272,53 @@ h4 {
 .tim {
 	padding: 0 40px;
 }
-
+.clan_tima {
+	display: inline-block;
+	padding: 30px;
+	padding-top: 45px;
+	width: 33%;
+}
+.clan_tima h6 {
+	box-sizing: border-box;
+	font-size: 12px;
+	font-weight: 400;
+	opacity: 0.8;
+}
+.clan_tima h5 {
+	font-size: 15px;
+	padding-top: 15px;
+}
+.slika_clana {
+	display: block;
+	border-radius: 110px;
+	overflow: hidden;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 15px;
+}
+.tim_linkovi {
+	margin-top: 15px;
+}
+.tim_linkovi a li span {
+	opacity: 0.8;
+	height: 30px;
+	width: 30px;
+	height: 30px;
+	width: 30px;
+	border-radius: 4px;
+	margin: 6px;
+	border: 1px #b2b2b2 solid;
+}
+.tim_linkovi a li span {
+	font-size: 14px;
+	line-height: 30px;
+	text-align: center;
+} 
+.tim_linkovi a li span:hover {
+	color: white;
+	background-color: #1299d5;
+	border-color: white; 
+}
 
 
 @media screen and (max-width: 800px) {
@@ -354,15 +405,20 @@ h4 {
 	.portfolio_slike {
 		margin-left: 1%;
 	}
+	.clan_tima,
 	.portfolio_slika {
 		width: 49%;
 	}
 }
 
 @media screen and (max-width: 599px) {
+	.tim {
+		padding: 0;
+	}
 	.portfolio_slike {
 		margin-left: 0;
 	}
+	.clan_tima,
 	.portfolio_slika {
 		width: 100%;
 	}
