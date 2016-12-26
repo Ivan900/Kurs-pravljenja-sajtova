@@ -322,7 +322,7 @@ h4 {
 .sivi {
 	padding: 50px 40px;
 	width: 100%;
-	background-color: #eaeaea;
+	background-color: #f2f2f2;
 }
 .sedmica {
 	box-sizing: border-box;
@@ -337,7 +337,31 @@ h4 {
 	text-align: center;
 	width: 100%;
 }
-
+.sedmica h1 {
+	margin: 20px 0;
+}
+.osmica {
+	padding-top: 70px;
+	padding-bottom: 60px;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+.ponuda_wrp {
+	box-sizing: border-box;
+	display: inline-block;
+	padding: 0 15px;
+	width: 33%;
+}
+.ponuda {
+	box-shadow: 0px 10px 20px rgba(229, 229, 229, .8);
+	width: 100%;
+}
+.ponuda_lista {
+	display: block;
+}
+.ponuda_lista li {
+	display: block;
+}
 
 
 
@@ -391,6 +415,9 @@ h4 {
 	header nav ul li a {
 		padding: 20px 10px;
 	}
+	.sedmica {
+		width: 49%;
+	}
 }
 
 @media screen and (min-width: 750px) and (max-width: 950px) {
@@ -439,8 +466,15 @@ h4 {
 	.portfolio_slike {
 		margin-left: 0;
 	}
+	.sedmica,
 	.clan_tima,
 	.portfolio_slika {
 		width: 100%;
+	}
+	h3 {
+		font-size: 20px;
+	}
+	.trojka_naslov {
+		padding-bottom: 25px;
 	}
 }
