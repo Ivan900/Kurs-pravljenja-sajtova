@@ -442,7 +442,7 @@ footer {
 		display: none;
 	}
 }
-@media screen and (min-width: 619px) {
+@media screen and (min-width: 639px) {
 	header {
 		height: calc(100vh - 155px);
 	}
@@ -459,13 +459,32 @@ footer {
 		background-position: center 30%;
 		background-image: url(https://a.slack-edge.com/4030/img/wired/mobile/nasa-header-image-mobile.jpg) !important;
 		width: 100%;
-		height: 537px;
+		height: 560px;
 	}
 }
 
-@media screen and (max-width: 439px) {
-	.naslov {
+@media screen and (max-width: 339px) {
+	header {
+		height: calc(100vh - 150px);
+	}
+	.naslov { 
+		position: relative;
 		line-height: 35px;
 		font-size: 28px;
+
+	}
+	.pozadina{
+		background-position: center 30%;
+		background-image: url(https://a.slack-edge.com/4030/img/wired/mobile/nasa-header-image-mobile.jpg) !important;
+		width: 100%;
+		height: 537px;
+	}
+	.centar_in {
+		position: relative;
+		top: 149px;
+	}
+	footer {
+		position: relative;
+		top: 128px;
 	}
 }
