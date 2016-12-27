@@ -236,6 +236,9 @@ footer {
 	font-weight: 900 !important;
 	opacity: 1 !important;
 }
+.lista_naslov span {
+	display: none;
+}
 .lista_naslov i {
 	margin-left: 5px;
 }
@@ -306,6 +309,12 @@ footer {
 
 }
 @media screen and (min-width: 0px) and (max-width: 639px) {
+	.pozadina {
+		background-image: none !important;
+	}
+	.centar {
+		padding: 0;
+	}
 	.centar_in {
 		position: absolute;
 		bottom: 0;
@@ -353,7 +362,7 @@ footer {
 	.form_mob {
 		box-sizing: border-box;
 		padding-bottom: 33px;
-		border-bottom: 1px white solid;
+		border-bottom: 1px solid white;
 	}
 	.mob_podnaslov {
 		position: relative;
@@ -365,8 +374,51 @@ footer {
 	.gradient {
 		display: none;
 	}
-	.footer {
+	.forma {
+		z-index: 70;
+	}
+	footer {
+		z-index: 60;
+		border-top: 0px;
+		background-color: black;
+		padding: 0;
+	}
+	.linkovi {
+		padding-left: 0px !important;
+		padding-right: 0px !important;
+	}
+	.foter_lista ul li {
+		display: none;
+	}
+	.foter_lista {
+		display: block;
+		width: 100%;
+		margin: 0px;
+	}
+	.foter_lista ul {
+		margin: 0px;
+		padding-top: 14px;
+		padding-bottom: 10px;
+		padding-left: 18px;
+		padding-right: 18px;
+		border-top: 1px solid rgba(255, 255, 255, 0.14);
+	}
+	.prvi {
+		border-top: 0px !important;
+	}
+	.lista_naslov {
+		display: inline-block !important;
+		width: 100%;
+	}
+	.lista_naslov span {
+		display: inline-block;
+		float: right;
+		line-height: 25px;
+		font-size: 20px;
 
+	}
+	.fusnota {
+		margin: 0;
 	}
 
 }
@@ -395,17 +447,25 @@ footer {
 		height: calc(100vh - 155px);
 	}
 	.centar_in {
-		top: 154px;
+		top: 125px;
 	}
 }
-@media screen and (min-width: 440px) and (max-width: 639px) {
+@media screen and (max-width: 639px) {
 	.centar {
 		position: relative;
 		min-height: 840px;
 	}
 	.pozadina{
 		background-position: center 30%;
-		background-image: url(https://a.slack-edge.com/4030/img/wired/mobile/nasa-header-image-mobile.jpg);
-		
+		background-image: url(https://a.slack-edge.com/4030/img/wired/mobile/nasa-header-image-mobile.jpg) !important;
+		width: 100%;
+		height: 537px;
+	}
+}
+
+@media screen and (max-width: 439px) {
+	.naslov {
+		line-height: 35px;
+		font-size: 28px;
 	}
 }
