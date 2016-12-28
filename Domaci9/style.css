@@ -2,6 +2,21 @@
 	box-sizing: border-box;
 	margin: 0;
 }
+header,
+.naslov_1,
+.telo,
+.slika_fixed {
+	max-width: 1500px;
+	margin-left: auto;
+	margin-right: auto;
+}
+@media screen and (min-width: 1500px) {
+	.slika_fixed,
+	header {
+		margin-left: calc((100% - 1500px) / 2)
+	}
+}
+
 img {
 	box-sizing: border-box;
 }
@@ -539,8 +554,6 @@ h4 {
 .mapa {
 	width: 100%;
 	height: 316px;
-	background: url('mapa.jpg');
-	background-position: center center;
 }
 .sivi_brend {
 	width: 100%;
