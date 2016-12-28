@@ -2,6 +2,9 @@
 	margin: 0;
 	color: white;
 }
+.linkovi {
+	max-width: 1300px;
+}
 .pozadina {
 	background-image: url(https://a.slack-edge.com/4030/img/wired/nasa-header-image.jpg);
 	background-color: #999;
@@ -314,6 +317,7 @@ footer {
 	}
 	.centar {
 		padding: 0;
+		display: block;
 	}
 	.centar_in {
 		position: absolute;
@@ -378,6 +382,8 @@ footer {
 		z-index: 70;
 	}
 	footer {
+		position: relative;
+		display: block;
 		z-index: 60;
 		border-top: 0px;
 		background-color: black;
@@ -450,11 +456,13 @@ footer {
 		top: 125px;
 	}
 }
-@media screen and (max-width: 639px) {
+@media screen and (min-height: 323px) and (max-height: 639px) {
 	.centar {
 		position: relative;
 		min-height: 840px;
 	}
+}
+@media screen and (max-width: 639px) {
 	.pozadina{
 		background-position: center 30%;
 		background-image: url(https://a.slack-edge.com/4030/img/wired/mobile/nasa-header-image-mobile.jpg) !important;
@@ -474,17 +482,53 @@ footer {
 
 	}
 	.pozadina{
-		background-position: center 30%;
+		background-position: center -68px;
 		background-image: url(https://a.slack-edge.com/4030/img/wired/mobile/nasa-header-image-mobile.jpg) !important;
 		width: 100%;
 		height: 537px;
 	}
+	footer {
+		position: relative;
+		top: 128px;
+	}
+}
+@media screen and (min-width: 323px) and (max-width: 339px) {
+	.centar_in {
+		top: 149;
+	}
+}
+@media screen and (min-width: 289px) and (max-width: 322px) {
+	.centar_in {
+		top: 170;
+	}
+}
+@media screen and (max-width: 288px) {
 	.centar_in {
 		position: relative;
 		top: 149px;
 	}
-	footer {
-		position: relative;
-		top: 128px;
+}
+@media screen and (max-width: 372px) {
+	.centar {
+		min-height: 744px !important;
+	}
+}
+@media screen and (min-width: 1264px) {
+	.centar{
+		max-width: 1500px;
+		position: absolute;
+		bottom: 0;
+	}
+	nav,
+	.fus_section
+	 {
+		max-width: 1500px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+@media screen and (min-width: 1500px)  {
+	.centar {
+		left: calc((100% - 1500px) / 2);
 	}
 }
