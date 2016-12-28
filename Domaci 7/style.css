@@ -300,7 +300,7 @@ footer {
 .fus_logo:hover {
 	opacity: 1;
 }
-@media screen and (min-width: 0px) and (max-width: 950px) {
+@media screen and (max-width: 950px) {
 	h1 {
 		font-size: 45px;
 		width: 565px;
@@ -311,10 +311,35 @@ footer {
 	}
 
 }
-@media screen and (min-width: 0px) and (max-width: 639px) {
-	.pozadina {
-		background-image: none !important;
+@media screen and (max-width: 422px) {
+	header {
+		min-height: 800px
 	}
+	.naslov {
+		font-size: 30px;
+		line-height: 40px;
+	}
+	.pozadina {
+		background-position: center -93px;
+		background-image: url(https://a.slack-edge.com/4030/img/wired/mobile/nasa-header-image-mobile.jpg) !important;
+		width: 100%;
+		height: 100%
+	}
+
+}
+@media screen and (min-width: 423px) and (max-width: 639px) {
+	header {
+		min-height: 850px;
+	}
+	.pozadina {
+		background-position: center 50%;
+		background-image: url(https://a.slack-edge.com/4030/img/wired/mobile/nasa-header-image-mobile.jpg) !important;
+		width: 100%;
+		height: 100%
+	}
+}
+
+@media screen and (max-width: 639px) {
 	.centar {
 		padding: 0;
 		display: block;
@@ -428,7 +453,8 @@ footer {
 	}
 
 }
-@media screen and (min-width: 150px) and (max-width: 855px) {
+
+@media screen and (max-width: 855px) {
 	.sakriven {
 		display: inline-block;
 		float: none;
@@ -437,82 +463,23 @@ footer {
 		display: none;
 	}
 }
-
-@media screen and (min-width: 0px) and (max-width: 400px) {
+@media screen and (max-width: 400px) {
 	.download {
 		display: none;
 	}
+
 }
-@media screen and (min-width: 0px) and (max-width: 750px) {
+@media screen and (max-width: 750px) {
 	.veliki {
 		display: none;
 	}
 }
-@media screen and (min-width: 639px) {
-	header {
-		height: calc(100vh - 155px);
-	}
+@media screen and (min-width: 640px) {
 	.centar_in {
 		top: 125px;
 	}
 }
-@media screen and (min-height: 323px) and (max-height: 639px) {
-	.centar {
-		position: relative;
-		min-height: 840px;
-	}
-}
-@media screen and (max-width: 639px) {
-	.pozadina{
-		background-position: center 30%;
-		background-image: url(https://a.slack-edge.com/4030/img/wired/mobile/nasa-header-image-mobile.jpg) !important;
-		width: 100%;
-		height: 560px;
-	}
-}
 
-@media screen and (max-width: 339px) {
-	header {
-		height: calc(100vh - 150px);
-	}
-	.naslov { 
-		position: relative;
-		line-height: 35px;
-		font-size: 28px;
-
-	}
-	.pozadina{
-		background-position: center -68px;
-		background-image: url(https://a.slack-edge.com/4030/img/wired/mobile/nasa-header-image-mobile.jpg) !important;
-		width: 100%;
-		height: 537px;
-	}
-	footer {
-		position: relative;
-		top: 128px;
-	}
-}
-@media screen and (min-width: 323px) and (max-width: 339px) {
-	.centar_in {
-		top: 149;
-	}
-}
-@media screen and (min-width: 289px) and (max-width: 322px) {
-	.centar_in {
-		top: 170;
-	}
-}
-@media screen and (max-width: 288px) {
-	.centar_in {
-		position: relative;
-		top: 149px;
-	}
-}
-@media screen and (max-width: 372px) {
-	.centar {
-		min-height: 744px !important;
-	}
-}
 @media screen and (min-width: 1264px) {
 	.centar{
 		max-width: 1500px;
